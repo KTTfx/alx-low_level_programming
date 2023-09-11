@@ -4,7 +4,7 @@
  * Return: 0
  */
 int main(void)
-	(
-	 puts("Programming is like building a multilingaul puzzlw");
-	 return (0);
-	)
+(
+puts("\"Programming is like building a multilingaul puzzle");
+return (0);
+)
