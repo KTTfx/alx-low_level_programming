@@ -1,12 +1,15 @@
 #include "main.h"
 
-/** mul: This function prints numbers from 0-9
- * @n: parameter 1
- * @b: parameter 2 
- * Return: a* b
+/**
+ * print_numbers: This function prints numbers from 0-9
+ * Return: void
  */
 
-int _mul(int a, int b)
+void print_numbers(void)
 {
-	return (a * b);
+	int i;
+
+	for (i = 0 ; i < 10 ; i++)
+		_putchar (i + '0');
+	_putchar('\n');
 }
